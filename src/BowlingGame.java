@@ -24,7 +24,7 @@ public class BowlingGame {
 			pinsLeft = 10 - firstThrow;
 			secondThrow = bowlThrow(0, pinsLeft);
 			Frame test = new Frame(firstThrow, secondThrow);
-			int txt = score();
+			int txt = test.score();
 			System.out.println(txt);
 			
 			//test.setFirstThrow(firstThrow);
