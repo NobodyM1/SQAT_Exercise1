@@ -10,3 +10,88 @@ RefactoringAction 1474631227302 BowlingGame.java RENAME BowlingGame()=>Frame tes
 RefactoringAction 1474631231352 BowlingGame.java RENAME <initializer /1>=>BowlingGame() METHOD
 RefactoringAction 1474631375862 BowlingGame.java REMOVE test FIELD
 EditAction 1474631426991 Frame.java 671 6 7 0
+RefactoringAction 1474631725035 BowlingGame.java ADD int t FIELD
+RefactoringAction 1474631727554 BowlingGame.java REMOVE t FIELD
+RefactoringAction 1474631738099 BowlingGame.java ADD int bowl FIELD
+RefactoringAction 1474631740616 BowlingGame.java RENAME bowl=>int bowlThrow FIELD
+RefactoringAction 1474631741630 BowlingGame.java RENAME bowlThrow=>int bowlThrow() METHOD
+RefactoringAction 1474631754652 BowlingGame.java RENAME bowlThrow()=>int Throw() METHOD
+RefactoringAction 1474631756669 BowlingGame.java RENAME Throw()=>int firstThrow() METHOD
+RefactoringAction 1474631778724 BowlingGame.java ADD int secondT FIELD
+RefactoringAction 1474631780238 BowlingGame.java RENAME secondT=>int secondThrow FIELD
+RefactoringAction 1474631781253 BowlingGame.java RENAME secondThrow=>int secondThrow() METHOD
+RefactoringAction 1474631799817 BowlingGame.java RENAME secondThrow()=>int secondThrow(int) METHOD
+RefactoringAction 1474632002301 BowlingGame.java ADD import java.util.Random IMPORT
+RefactoringAction 1474632040967 BowlingGame.java RENAME firstThrow()=>int firstThrow(int) METHOD
+RefactoringAction 1474632043987 BowlingGame.java RENAME firstThrow(int)=>int firstThrow(int, int) METHOD
+RefactoringAction 1474632056011 BowlingGame.java REMOVE secondThrow(int) METHOD
+RefactoringAction 1474632063532 BowlingGame.java RENAME firstThrow(int, int)=>int bolwThrow(int, int) METHOD
+RefactoringAction 1474632065048 BowlingGame.java RENAME bolwThrow(int, int)=>int bowlThrow(int, int) METHOD
+RefactoringAction 1474632447817 Frame.java ADD void set FIELD
+RefactoringAction 1474632449831 Frame.java RENAME set=>void setFirst FIELD
+RefactoringAction 1474632450841 Frame.java RENAME setFirst=>void setFirstTh FIELD
+RefactoringAction 1474632452353 Frame.java RENAME setFirstTh=>void setFirstThrow FIELD
+RefactoringAction 1474632454365 Frame.java RENAME setFirstThrow=>void setFirstThrow() METHOD
+RefactoringAction 1474632467902 Frame.java RENAME setFirstThrow()=>void setFirstThrow(int) METHOD
+RefactoringAction 1474632495991 Frame.java ADD void second FIELD
+RefactoringAction 1474632500005 Frame.java RENAME second=>void setSce FIELD
+RefactoringAction 1474632503519 Frame.java RENAME setSce=>void setSecondThrow FIELD
+RefactoringAction 1474632506031 Frame.java RENAME setSecondThrow=>void setSecondThrow(int) METHOD
+CompilationAction 1474632543665 BowlingGame.java
+RefactoringAction 1474632584013 BowlingGame.java RENAME BowlingGame()=>Frame test FIELD
+RefactoringAction 1474632585529 BowlingGame.java RENAME <initializer /1>=>BowlingGame() METHOD
+RefactoringAction 1474632634579 BowlingGame.java ADD int firstThrow FIELD
+RefactoringAction 1474632640599 BowlingGame.java ADD int secondThrow FIELD
+RefactoringAction 1474632652642 BowlingGame.java REMOVE firstThrow FIELD
+RefactoringAction 1474632655650 BowlingGame.java REMOVE secondThrow FIELD
+RefactoringAction 1474632697691 BowlingGame.java REMOVE test FIELD
+RefactoringAction 1474632835344 Frame.java REMOVE score() METHOD
+RefactoringAction 1474632835344 Frame.java REMOVE getSecondThrow() METHOD
+RefactoringAction 1474632835345 Frame.java REMOVE setSecondThrow(int) METHOD
+RefactoringAction 1474632835345 Frame.java REMOVE isSpare() METHOD
+RefactoringAction 1474632835345 Frame.java REMOVE getFirstThrow() METHOD
+RefactoringAction 1474632835346 Frame.java REMOVE isStrike() METHOD
+RefactoringAction 1474632835346 Frame.java REMOVE setFirstThrow(int) METHOD
+RefactoringAction 1474632835346 Frame.java REMOVE Frame(int, int) METHOD
+RefactoringAction 1474632839355 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1474632839355 Frame.java ADD int getSecondThrow() METHOD
+RefactoringAction 1474632839355 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1474632839356 Frame.java ADD void setSecondThrow(int) METHOD
+RefactoringAction 1474632839356 Frame.java ADD int score() METHOD
+RefactoringAction 1474632839356 Frame.java ADD boolean isStrike() METHOD
+RefactoringAction 1474632839357 Frame.java ADD boolean isSpare() METHOD
+RefactoringAction 1474632865133 BowlingGame.java RENAME BowlingGame()=>Frame test FIELD
+RefactoringAction 1474632868161 BowlingGame.java RENAME BowlingGame()=><initializer /1> null
+RefactoringAction 1474632869676 BowlingGame.java RENAME <initializer /1>=>BowlingGame() METHOD
+RefactoringAction 1474632981375 BowlingGame.java REMOVE test FIELD
+RefactoringAction 1474632991478 Frame.java REMOVE score() METHOD
+RefactoringAction 1474632991479 Frame.java REMOVE getSecondThrow() METHOD
+RefactoringAction 1474632991479 Frame.java REMOVE setSecondThrow(int) METHOD
+RefactoringAction 1474632991480 Frame.java REMOVE isSpare() METHOD
+RefactoringAction 1474632991481 Frame.java REMOVE getFirstThrow() METHOD
+RefactoringAction 1474632991482 Frame.java REMOVE isStrike() METHOD
+RefactoringAction 1474632991482 Frame.java REMOVE setFirstThrow(int) METHOD
+RefactoringAction 1474632994493 Frame.java ADD Frame(int, int) METHOD
+RefactoringAction 1474632994494 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1474632994495 Frame.java ADD int getSecondThrow() METHOD
+RefactoringAction 1474632994496 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1474632994496 Frame.java ADD void setSecondThrow(int) METHOD
+RefactoringAction 1474632994497 Frame.java ADD int score() METHOD
+RefactoringAction 1474632994498 Frame.java ADD boolean isStrike() METHOD
+RefactoringAction 1474632994499 Frame.java ADD boolean isSpare() METHOD
+RefactoringAction 1474633397309 Frame.java REMOVE score() METHOD
+RefactoringAction 1474633397309 Frame.java REMOVE setSecondThrow(int) METHOD
+RefactoringAction 1474633397310 Frame.java REMOVE isSpare() METHOD
+RefactoringAction 1474633397310 Frame.java REMOVE isStrike() METHOD
+RefactoringAction 1474633397310 Frame.java REMOVE setFirstThrow(int) METHOD
+RefactoringAction 1474633401821 Frame.java ADD int score() METHOD
+RefactoringAction 1474633401821 Frame.java ADD boolean isStrike() METHOD
+RefactoringAction 1474633401821 Frame.java ADD boolean isSpare() METHOD
+RefactoringAction 1474633717567 Frame.java REMOVE getSecondThrow() METHOD
+RefactoringAction 1474633717568 Frame.java REMOVE getFirstThrow() METHOD
+RefactoringAction 1474633717569 Frame.java REMOVE Frame(int, int) METHOD
+RefactoringAction 1474633721087 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1474633721088 Frame.java ADD int getSecondThrow() METHOD
+RefactoringAction 1474633723600 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1474633723601 Frame.java ADD void setSecondThrow(int) METHOD
+EditAction 1474633727918 Frame.java 831 7 7 0
