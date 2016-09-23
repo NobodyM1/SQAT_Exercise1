@@ -37,9 +37,12 @@ public class BowlingGame {
 			}
 			Frame test = new Frame(firstThrow, secondThrow);
 			if(strike == false){
-				int socre = setBonus(firstThrow, secondThrow);
+				strike = true;
 			}
-			int txt = test.score();
+			if(spare == false){
+				spare = true;
+			}
+			int txt = score();
 			System.out.println(txt);
 			
 		
@@ -65,7 +68,14 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score 
+		int i;
+		int totalScore = 0;
+		for(i=0; i< frames.size(); i++){
+			Frame score = frames.get(i);
+			int sc = score.score();
+			totalScore = totalScore + sc;
+		}
 		
-		return 0;
+		return totalScore;
 	}
 }
