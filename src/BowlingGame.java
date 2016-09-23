@@ -42,6 +42,7 @@ public class BowlingGame {
 			if(spare == false){
 				spare = true;
 			}
+			frames.add(test);
 			int txt = score();
 			System.out.println(txt);
 			
