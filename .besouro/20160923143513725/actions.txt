@@ -110,3 +110,4 @@ RefactoringAction 1474634591259 BowlingGame.java ADD import java.util.Collection
 RefactoringAction 1474634596806 BowlingGame.java REMOVE import java.util.Collection IMPORT
 EditAction 1474635229527 Frame.java 853 6 8 0
 EditAction 1474635306775 BowlingGame.java 1218 5 9 0
+EditAction 1474635363584 TestBowling.java 178 1 1 0
