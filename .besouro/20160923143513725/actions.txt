@@ -95,3 +95,14 @@ RefactoringAction 1474633721088 Frame.java ADD int getSecondThrow() METHOD
 RefactoringAction 1474633723600 Frame.java ADD void setFirstThrow(int) METHOD
 RefactoringAction 1474633723601 Frame.java ADD void setSecondThrow(int) METHOD
 EditAction 1474633727918 Frame.java 831 7 7 0
+CompilationAction 1474633729478 BowlingGame.java
+RefactoringAction 1474633742041 BowlingGame.java ADD Frame test FIELD
+RefactoringAction 1474633778170 Frame.java ADD void FrameT(int, int) METHOD
+RefactoringAction 1474633791698 Frame.java RENAME FrameT(int, int)=>Frame(int, int) METHOD
+RefactoringAction 1474633872640 BowlingGame.java REMOVE test FIELD
+RefactoringAction 1474633903785 Frame.java REMOVE Frame(int, int) METHOD
+RefactoringAction 1474633907805 Frame.java ADD int score() METHOD
+RefactoringAction 1474633907806 Frame.java ADD boolean isStrike() METHOD
+RefactoringAction 1474633907807 Frame.java ADD boolean isSpare() METHOD
+CompilationAction 1474634397029 BowlingGame.java
+EditAction 1474634451868 Frame.java 831 6 7 0

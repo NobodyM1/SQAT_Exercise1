@@ -10,6 +10,8 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	
+	//Frame test = new Frame();
+	
 	public BowlingGame(){
 		int i;
 		int firstThrow;
@@ -21,9 +23,12 @@ public class BowlingGame {
 			firstThrow = bowlThrow(0, 10);
 			pinsLeft = 10 - firstThrow;
 			secondThrow = bowlThrow(0, pinsLeft);
+
+			new Frame(firstThrow, secondThrow);
 			
-			frames.add(firstThrow, secondThrow);
 			
+			//test.setFirstThrow(firstThrow);
+			//test.setSecondThrow(secondThrow
 		}
 	}
 	
@@ -35,7 +40,6 @@ public class BowlingGame {
 	
 	// adds a frame to the game
 	public void addFrame(Frame frame){
-		//to be implemented
 		
 	}
 	
