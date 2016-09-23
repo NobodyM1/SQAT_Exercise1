@@ -201,3 +201,6 @@ UnitTestSessionAction 1474638443016 TestBowling.java OK
 UnitTestCaseAction 1474638445399 TestBowling.java OK
 UnitTestSessionAction 1474638445400 TestBowling.java OK
 EditAction 1474638469538 BowlingGame.java 1985 5 17 0
+UnitTestCaseAction 1474638473538 TestBowling.java OK
+UnitTestSessionAction 1474638473539 TestBowling.java OK
+EditAction 1474638486233 BowlingGame.java 1995 5 17 0
