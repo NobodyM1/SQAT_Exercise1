@@ -31,3 +31,7 @@
 1474638069394 regression 1 0 true
 1474638087120 production 1 4 true
 1474638416868 refactoring 2A 3 false
+1474638432607 production 1 3 false
+1474638441560 regression 1 0 false
+1474638443016 regression 1 0 false
+1474638445400 regression 1 0 false

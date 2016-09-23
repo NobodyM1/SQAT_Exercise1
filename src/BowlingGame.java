@@ -72,6 +72,7 @@ public class BowlingGame {
 		//to be implemented: should return game score 
 		int i;
 		int totalScore = 0;
+		System.out.println(frames.size());
 		for(i=0; i< frames.size(); i++){
 			Frame score = frames.get(i);
 			int sc = score.score();
