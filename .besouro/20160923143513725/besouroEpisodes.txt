@@ -6,3 +6,7 @@
 1474635446248 refactoring 2A 5 true
 1474636915626 refactoring 2A 686 true
 1474636915627 production 1 686 false
+1474636962601 production 1 4 false
+1474636973785 regression 1 0 true
+1474636979232 regression 1 0 true
+1474636985643 regression 1 0 true
