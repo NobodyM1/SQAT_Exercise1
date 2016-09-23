@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Random;
 
 //Finish time:
-//ID:
+//ID: 2311425
 
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
@@ -48,7 +48,7 @@ public class BowlingGame {
 		
 		}
 		//int txt = score();
-		System.out.println(frames);
+		//System.out.println(frames); //[Frame@5387f9e0, Frame@6e5e91e4, Frame@2cdf8d8a, Frame@30946e09, Frame@5cb0d902, Frame@46fbb2c1, Frame@1698c449, Frame@5ef04b5]
 	}
 	
 	public int bowlThrow(int min, int max){
@@ -73,10 +73,9 @@ public class BowlingGame {
 		int i;
 		int totalScore = 0;
 		for(i=0; i< frames.size(); i++){
-			
 			Frame score = frames.get(i);
 			int sc = score.score();
-			//System.out.println(sc);
+			System.out.println(sc);
 			totalScore = totalScore + sc;
 		}
 		
