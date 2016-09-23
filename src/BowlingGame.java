@@ -18,7 +18,7 @@ public class BowlingGame {
 		int secondThrow;
 		int pinsLeft;
 		
-		for(i=0; i<9; i++){
+		for(i=0; i<10; i++){
 			
 			firstThrow = bowlThrow(0, 10);
 			pinsLeft = 10 - firstThrow;
