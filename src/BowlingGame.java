@@ -23,18 +23,22 @@ public class BowlingGame {
 		for(i=0; i<10; i++){
 			
 			firstThrow = bowlThrow(0, 10);
+			/*
 			if(firstThrow == 10){
 				Frame test = new Frame(firstThrow, 0);
 				strike = test.isStrike();
-				continue;
+				break;
 			}
+			*/
 			pinsLeft = 10 - firstThrow;
 			secondThrow = bowlThrow(0, pinsLeft);
+			/*
 			if(secondThrow == pinsLeft){
 				Frame test = new Frame(firstThrow, secondThrow);
 				spare = test.isSpare();
-				continue;
+				break;
 			}
+			*/
 			Frame test = new Frame(firstThrow, secondThrow);
 			if(strike == false){
 				strike = true;
@@ -48,7 +52,7 @@ public class BowlingGame {
 		
 		}
 		int txt = score();
-		//System.out.println(frames); //[Frame@5387f9e0, Frame@6e5e91e4, Frame@2cdf8d8a, Frame@30946e09, Frame@5cb0d902, Frame@46fbb2c1, Frame@1698c449, Frame@5ef04b5]
+		System.out.println(frames); //[Frame@5387f9e0, Frame@6e5e91e4, Frame@2cdf8d8a, Frame@30946e09, Frame@5cb0d902, Frame@46fbb2c1, Frame@1698c449, Frame@5ef04b5]
 	}
 	
 	public int bowlThrow(int min, int max){

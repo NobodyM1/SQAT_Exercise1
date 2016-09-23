@@ -36,3 +36,10 @@
 1474638443016 regression 1 0 false
 1474638445400 regression 1 0 false
 1474638473539 production 1 4 false
+1474638489556 refactoring 2A 3 true
+1474638492690 regression 1 0 false
+1474638542447 regression 1 0 false
+1474638544867 regression 1 0 true
+1474638547466 regression 1 0 true
+1474638582096 refactoring 2B 20 false
+1474638584917 regression 1 0 false

@@ -204,3 +204,26 @@ EditAction 1474638469538 BowlingGame.java 1985 5 17 0
 UnitTestCaseAction 1474638473538 TestBowling.java OK
 UnitTestSessionAction 1474638473539 TestBowling.java OK
 EditAction 1474638486233 BowlingGame.java 1995 5 17 0
+UnitTestCaseAction 1474638489555 TestBowling.java OK
+UnitTestSessionAction 1474638489556 TestBowling.java OK
+UnitTestCaseAction 1474638492690 TestBowling.java OK
+UnitTestSessionAction 1474638492690 TestBowling.java OK
+UnitTestCaseAction 1474638542446 TestBowling.java OK
+UnitTestSessionAction 1474638542447 TestBowling.java OK
+UnitTestCaseAction 1474638544866 TestBowling.java OK
+UnitTestSessionAction 1474638544867 TestBowling.java OK
+UnitTestCaseAction 1474638547465 TestBowling.java OK
+UnitTestSessionAction 1474638547466 TestBowling.java OK
+RefactoringAction 1474638561567 BowlingGame.java REMOVE setBonus(int, int) METHOD
+RefactoringAction 1474638561569 BowlingGame.java REMOVE addFrame(Frame) METHOD
+RefactoringAction 1474638561569 BowlingGame.java REMOVE bowlThrow(int, int) METHOD
+RefactoringAction 1474638561570 BowlingGame.java REMOVE score() METHOD
+RefactoringAction 1474638565598 BowlingGame.java ADD int bowlThrow(int, int) METHOD
+RefactoringAction 1474638565600 BowlingGame.java ADD void addFrame(Frame) METHOD
+RefactoringAction 1474638565600 BowlingGame.java ADD void setBonus(int, int) METHOD
+RefactoringAction 1474638565601 BowlingGame.java ADD int score() METHOD
+UnitTestCaseAction 1474638582095 TestBowling.java OK
+UnitTestSessionAction 1474638582096 TestBowling.java OK
+UnitTestCaseAction 1474638584915 TestBowling.java OK
+UnitTestSessionAction 1474638584917 TestBowling.java OK
+EditAction 1474638601569 BowlingGame.java 2015 5 18 0
