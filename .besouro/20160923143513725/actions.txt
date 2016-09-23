@@ -1,0 +1,12 @@
+FileOpenedAction 1474630514591 BowlingGame.java 623 4 1 0
+FileOpenedAction 1474630566168 Frame.java 671 6 7 0
+FileOpenedAction 1474630568126 BowlingException.java 58 0 0 0
+FileOpenedAction 1474630573491 TestBowling.java 165 1 1 0
+RefactoringAction 1474631160096 Frame.java ADD int set FIELD
+RefactoringAction 1474631163108 Frame.java RENAME set=>int setFirstTe FIELD
+RefactoringAction 1474631165116 Frame.java RENAME setFirstTe=>int setFirstTrow FIELD
+RefactoringAction 1474631171132 Frame.java REMOVE setFirstTrow FIELD
+RefactoringAction 1474631227302 BowlingGame.java RENAME BowlingGame()=>Frame test FIELD
+RefactoringAction 1474631231352 BowlingGame.java RENAME <initializer /1>=>BowlingGame() METHOD
+RefactoringAction 1474631375862 BowlingGame.java REMOVE test FIELD
+EditAction 1474631426991 Frame.java 671 6 7 0
