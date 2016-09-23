@@ -44,11 +44,10 @@ public class BowlingGame {
 			}
 			addFrame(test);
 			
-			int txt = score();
-			
 			
 		
 		}
+		//int txt = score();
 		System.out.println(frames);
 	}
 	
