@@ -44,7 +44,7 @@ public class BowlingGame {
 			}
 			frames.add(test);
 			int txt = score();
-			System.out.println(test);
+			//System.out.println(test);
 			
 		
 		}
@@ -72,8 +72,10 @@ public class BowlingGame {
 		int i;
 		int totalScore = 0;
 		for(i=0; i< frames.size(); i++){
+			
 			Frame score = frames.get(i);
 			int sc = score.score();
+			System.out.println(sc);
 			totalScore = totalScore + sc;
 		}
 		
