@@ -17,18 +17,32 @@ public class BowlingGame {
 		int firstThrow;
 		int secondThrow;
 		int pinsLeft;
+		boolean strike = true;
+		boolean spare = true;
 		
 		for(i=0; i<10; i++){
 			
 			firstThrow = bowlThrow(0, 10);
+			if(firstThrow == 10){
+				Frame test = new Frame(firstThrow, 0);
+				strike = test.isStrike();
+				continue;
+			}
 			pinsLeft = 10 - firstThrow;
 			secondThrow = bowlThrow(0, pinsLeft);
+			if(secondThrow == pinsLeft){
+				Frame test = new Frame(firstThrow, secondThrow);
+				spare = test.isSpare();
+				continue;
+			}
 			Frame test = new Frame(firstThrow, secondThrow);
+			if(strike == false){
+				int socre = setBonus(firstThrow, secondThrow);
+			}
 			int txt = test.score();
 			System.out.println(txt);
 			
-			//test.setFirstThrow(firstThrow);
-			//test.setSecondThrow(secondThrow
+		
 		}
 	}
 	
