@@ -42,12 +42,14 @@ public class BowlingGame {
 			if(spare == false){
 				spare = true;
 			}
-			frames.add(test);
+			addFrame(test);
+			
 			int txt = score();
-			//System.out.println(test);
+			
 			
 		
 		}
+		System.out.println(frames);
 	}
 	
 	public int bowlThrow(int min, int max){
@@ -58,7 +60,7 @@ public class BowlingGame {
 	
 	// adds a frame to the game
 	public void addFrame(Frame frame){
-		
+		frames.add(frame);
 	}
 	
 	// Sets the bonus throws at the end of the game
@@ -75,7 +77,7 @@ public class BowlingGame {
 			
 			Frame score = frames.get(i);
 			int sc = score.score();
-			System.out.println(sc);
+			//System.out.println(sc);
 			totalScore = totalScore + sc;
 		}
 		
