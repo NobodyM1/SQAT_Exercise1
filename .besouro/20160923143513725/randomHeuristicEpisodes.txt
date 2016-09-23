@@ -6,3 +6,4 @@
 1474636973785 regression 1 0 false
 1474636979232 regression 1 0 true
 1474636985643 regression 1 0 false
+1474637011041 refactoring 2A 6 true
