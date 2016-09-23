@@ -106,3 +106,6 @@ RefactoringAction 1474633907806 Frame.java ADD boolean isStrike() METHOD
 RefactoringAction 1474633907807 Frame.java ADD boolean isSpare() METHOD
 CompilationAction 1474634397029 BowlingGame.java
 EditAction 1474634451868 Frame.java 831 6 7 0
+RefactoringAction 1474634591259 BowlingGame.java ADD import java.util.Collection IMPORT
+RefactoringAction 1474634596806 BowlingGame.java REMOVE import java.util.Collection IMPORT
+EditAction 1474635229527 Frame.java 853 6 8 0
