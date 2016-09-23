@@ -52,7 +52,11 @@ public class BowlingGame {
 		
 		}
 		int txt = score();
-		System.out.println(frames); //[Frame@5387f9e0, Frame@6e5e91e4, Frame@2cdf8d8a, Frame@30946e09, Frame@5cb0d902, Frame@46fbb2c1, Frame@1698c449, Frame@5ef04b5]
+		System.out.println(frames); 
+		/*
+		For some reason frames return these sort of results, and for the better of me I have no idea why.
+		[Frame@5387f9e0, Frame@6e5e91e4, Frame@2cdf8d8a, Frame@30946e09, Frame@5cb0d902, Frame@46fbb2c1, Frame@1698c449, Frame@5ef04b5]
+		*/
 	}
 	
 	public int bowlThrow(int min, int max){

@@ -227,3 +227,14 @@ UnitTestSessionAction 1474638582096 TestBowling.java OK
 UnitTestCaseAction 1474638584915 TestBowling.java OK
 UnitTestSessionAction 1474638584917 TestBowling.java OK
 EditAction 1474638601569 BowlingGame.java 2015 5 18 0
+UnitTestCaseAction 1474638604214 TestBowling.java OK
+UnitTestSessionAction 1474638604214 TestBowling.java OK
+RefactoringAction 1474638640208 BowlingGame.java REMOVE setBonus(int, int) METHOD
+RefactoringAction 1474638640209 BowlingGame.java REMOVE addFrame(Frame) METHOD
+RefactoringAction 1474638640209 BowlingGame.java REMOVE bowlThrow(int, int) METHOD
+RefactoringAction 1474638640209 BowlingGame.java REMOVE score() METHOD
+RefactoringAction 1474638647748 BowlingGame.java ADD int bowlThrow(int, int) METHOD
+RefactoringAction 1474638647749 BowlingGame.java ADD void addFrame(Frame) METHOD
+RefactoringAction 1474638647750 BowlingGame.java ADD void setBonus(int, int) METHOD
+RefactoringAction 1474638647751 BowlingGame.java ADD int score() METHOD
+EditAction 1474638689383 BowlingGame.java 2130 5 18 0
